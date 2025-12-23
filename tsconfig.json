@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",          // версія JS, яку буде генерувати TS
+      "module": "CommonJS",        // тип модулів для Node.js
+      "rootDir": ".",               // корінь проєкту
+      "outDir": "dist",             // куди компілювати
+      "strict": true,               // увімкнути строгі перевірки
+      "esModuleInterop": true       // щоб import працював як треба
+    },
+    "include": [
+      "src",    // код сервера
+      "tests"   // тести
+    ],
+    "exclude": [
+      "node_modules"  // папку з бібліотеками не компілювати
+    ]
+  }
+  
+  

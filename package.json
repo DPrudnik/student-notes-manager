@@ -1,0 +1,19 @@
+{
+    "name": "student-notes-manager",
+    "version": "1.0.0",
+    "description": "Student Notes Manager",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "ts-node src/server.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "express": "^4.22.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.30",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}
